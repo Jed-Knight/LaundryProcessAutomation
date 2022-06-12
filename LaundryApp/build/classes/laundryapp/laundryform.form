@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup1">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup2">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup3">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup4">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup5">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="129" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="basketRadio" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="blanketRadio" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="clothRadio" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="dryRadio" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="gownRadio" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="dryCombo" max="32767" attributes="0"/>
+                                      <Component id="basketCombo" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="blanketCombo" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="clothCombo" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="gownCombo" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="jLabel1" min="-2" pref="84" max="-2" attributes="0"/>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="blanketHeavy" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="blanketDelicate" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="blanketSoak" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="clothHeavy" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="clothDelicate" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="dryHeavy" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="dryDelicate" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="drySoak" min="-2" max="-2" attributes="0"/>
+                                      <Component id="clothSoak" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="gownHeavy" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="gownDelicate" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="gownSoak" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="jLabel3" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="basketHeavy" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="basketDelicate" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="basketSoak" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="cancel" alignment="0" max="32767" attributes="0"/>
+                              <Component id="submit" alignment="0" max="32767" attributes="0"/>
+                              <Component id="reset" alignment="0" max="32767" attributes="0"/>
+                              <Component id="total" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jPanel2" max="32767" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="82" max="-2" attributes="0"/>
+                                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="0" pref="23" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="284" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel3" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jLabel1" alignment="3" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="basketRadio" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="basketCombo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="basketHeavy" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="basketDelicate" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="basketSoak" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="blanketRadio" min="-2" max="-2" attributes="0"/>
+                      <Component id="blanketCombo" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="blanketHeavy" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="blanketDelicate" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="blanketSoak" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="clothRadio" min="-2" max="-2" attributes="0"/>
+                      <Component id="clothCombo" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="clothHeavy" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="clothDelicate" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="clothSoak" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="dryRadio" min="-2" max="-2" attributes="0"/>
+                      <Component id="dryCombo" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="dryHeavy" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="dryDelicate" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="drySoak" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="gownRadio" min="-2" max="-2" attributes="0"/>
+                      <Component id="gownCombo" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                          <Component id="gownHeavy" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="gownDelicate" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="gownSoak" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="total" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="reset" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="submit" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="cancel" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="41" max="32767" attributes="0"/>
+                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Dialog" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="SERVICES:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="basketRadio">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="BASKET"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="basketRadioActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="blanketRadio">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="BLANKET"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="blanketRadioActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="clothRadio">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="CLOTH"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="clothRadioActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="dryRadio">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="DRY CLEANING"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="dryRadioActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="basketCombo">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="5">
+                <StringItem index="0" value="(none)"/>
+                <StringItem index="1" value="SMALL"/>
+                <StringItem index="2" value="MEDIUM"/>
+                <StringItem index="3" value="BIG BASKET"/>
+                <StringItem index="4" value="OVERFLOWING"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="basketComboActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="blanketCombo">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="5">
+                <StringItem index="0" value="(none)"/>
+                <StringItem index="1" value="SINGLE"/>
+                <StringItem index="2" value="DOUBLE"/>
+                <StringItem index="3" value="QUEEN SIZE"/>
+                <StringItem index="4" value="EXTRA LARGE"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="blanketComboActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="clothCombo">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="5">
+                <StringItem index="0" value="(none)"/>
+                <StringItem index="1" value="SMALL"/>
+                <StringItem index="2" value="BIG"/>
+                <StringItem index="3" value="LARGE"/>
+                <StringItem index="4" value="CURTAIN"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="clothComboActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="dryCombo">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="8">
+                <StringItem index="0" value="(none)"/>
+                <StringItem index="1" value="SUIT"/>
+                <StringItem index="2" value="COAT"/>
+                <StringItem index="3" value="JACKET"/>
+                <StringItem index="4" value="TROUSER"/>
+                <StringItem index="5" value="SHIRT"/>
+                <StringItem index="6" value="OVERCOAT"/>
+                <StringItem index="7" value="LEATHER JACKET"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="dryComboActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="gownRadio">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="GOWNS"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="gownRadioActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="gownCombo">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="(none)"/>
+                <StringItem index="1" value="WEDDING"/>
+                <StringItem index="2" value="GRADUATION"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="gownComboActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="basketHeavy">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="HEAVY"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="basketHeavyActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="basketDelicate">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="DELICATE"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="basketDelicateActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="basketSoak">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="SOAK"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="blanketHeavy">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup2"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="HEAVY"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="blanketDelicate">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup2"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="DELICATE"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="blanketSoak">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup2"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="SOAK"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="clothHeavy">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup3"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="HEAVY"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="clothDelicate">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup3"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="DELICATE"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="clothDelicateActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="clothSoak">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup3"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="SOAK"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="dryHeavy">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup4"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="HEAVY"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="dryDelicate">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup4"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="DELICATE"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="drySoak">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup4"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="SOAK"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="gownHeavy">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup5"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="HEAVY"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="gownDelicate">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup5"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="DELICATE"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="gownSoak">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup5"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="SOAK"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="total">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="TOTAL"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="totalActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="reset">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="RESET"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="resetActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="submit">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="SUBMIT"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="submitActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="cancel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="CANCEL"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cancelActionPerformed"/>
+          </Events>
+        </Component>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane2" alignment="0" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane2" alignment="0" pref="179" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea2">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Dialog" size="14" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="PROPERTY OF RIGEL TECHNOLOGIES &#xa9;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Dialog" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="EXTRAS:"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
